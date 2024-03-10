@@ -1,0 +1,144 @@
+
+
+/* navbar */
+.brand{
+    height: 70px;
+    /* color:lightseagreen; */
+    color: rgb(14, 85, 81);
+    /* color: rgb(60, 153, 153); */
+    font-size: 24px;
+    font-style: unset;
+    font-weight: 600;
+    font-family:ITC BENGUIAT;
+    text-shadow: 0PX 1PX 5PX rgb(172, 169, 169);
+    /* text-align: center; */
+}
+
+.tgbtn{
+    color: black;
+}
+
+.nav-link{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight:500;
+    color: black;    
+}
+
+.nav-link:hover{
+    
+    color: rgba(30, 199, 255, 0.726);
+    cursor: pointer;
+}
+
+/* nabar hovers */
+.h:hover{
+    color: lightseagreen;
+    cursor: pointer;
+    transition: 2s;
+}
+.c:hover{
+    color: lightseagreen;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.search:hover{
+     cursor: none;
+}
+
+.dbitems:hover{
+    background-color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+.icons{
+    margin: 7px;
+    font-size: 20px;   
+    color: black;
+}
+.icons:hover{
+    color: lightseagreen;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+/* MEN images */
+.womenimg{
+    border-radius: 20px;
+    box-shadow:  3px 3px 69px rgb(129, 125, 125);
+}
+
+/* FOOTER   */
+
+footer{
+    /* width: 97%;
+    position: absolute;
+    top: 2200px; */
+    background-color: rgb(104, 111, 117);
+    color: white;
+    height:50%;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+}
+/* ROW  */
+#foot{
+    margin-top: 50px;
+    color: white;
+    
+}
+
+/* FIRST COLOM */
+#fcolone{
+    margin-left: 70px;
+    text-align: start;
+    color: lightgray;
+    font-size: 25px;
+}
+#para{
+    font-size: 18px;
+}
+
+/*  SECOND COLOUM */
+#contact{
+    margin-left: 150px;
+    color: lightgray;
+    margin-top: 26px;
+}
+
+/*  THIRD COLOM  FOLOW US     */
+.soicon{
+    margin-top: 26px;
+}
+
+
+.iconss{
+    margin: 10px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 28px;
+}
+#insta:hover{
+    transition: 1s;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(orange, rgba(241, 50, 50, 0.979), rgb(224, 15, 144));
+}
+
+#face:hover{
+    color: rgb(6, 122, 189);
+    transition: 1s;
+}
+#twiter:hover{
+    color: lightskyblue;
+    transition: 1s;
+}
+#yt:hover{
+    color: rgb(221, 33, 33);
+    transition: 1s;
+}

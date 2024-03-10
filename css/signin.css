@@ -1,0 +1,268 @@
+
+
+/* navbar */
+.brand{
+    height: 70px;
+    /* color:lightseagreen; */
+    color: rgb(14, 85, 81);
+    /* color: rgb(60, 153, 153); */
+    font-size: 24px;
+    font-style: unset;
+    font-weight: 600;
+    font-family:ITC BENGUIAT;
+    text-shadow: 0PX 1PX 5PX rgb(172, 169, 169);
+    /* text-align: center; */
+}
+
+.tgbtn{
+    color: black;
+}
+
+.nav-link{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight:500;
+    color: black;    
+}
+
+.nav-link:hover{
+    
+    color: rgba(30, 199, 255, 0.726);
+    cursor: pointer;
+}
+
+/* nabar hovers */
+.h:hover{
+    color: lightseagreen;
+    cursor: pointer;
+    transition: 2s;
+}
+.c:hover{
+    color: lightseagreen;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+.search:hover{
+     cursor: none;
+}
+
+.dbitems:hover{
+    background-color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+.icons{
+    margin: 7px;
+    font-size: 20px;   
+    color: black;
+}
+.icons:hover{
+    color: lightseagreen;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* SIGNIN */
+.wrapper{
+    background-color: black;
+    color: white;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact input{
+    width: 250px;
+    /* margin: 20px; */
+    margin-bottom: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form input{
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    /* margin: 30px; */
+    margin-bottom: 50px;
+    padding: 7px;
+}
+
+.submit button{
+    border: none;
+    border-radius: 10px;
+    width: 18%;
+    margin-left: 3%;
+    font-weight: bold;
+    transition:  0.5s ease-in;
+}
+.submit button:hover{
+    /* transition: 2s; */
+    transform: scale(1.1);
+    box-shadow: 2px 2px 25px white;
+}
+
+/* #con2{
+    height: 75%;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: black;
+    margin-top: 60px
+}
+
+.wrapper{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px; 
+}
+
+.wrapper h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 1px 10px wheat;
+}
+
+/* first , last name  */
+/* .contact input{
+    margin-bottom: 40px;
+    height: 5%;
+    width: 46%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+} */
+/* email */
+/* .contact-form input {
+    margin-bottom: 40px;
+    width: 96%;
+    height: 5%;
+    padding: 10px; 
+    border-radius: 10px;
+    border: 2px solid black; 
+} */
+/* pass */
+/* .contact--form input{
+    margin-bottom: 40px;
+    height: 5%;
+    width: 46%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+} */
+/* submit button */
+/* .contact-form button{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.986);
+    color: rgb(0, 0, 0);
+    border: 10px rgb(148, 135, 135);
+    width: 19%;
+    margin-left: 20px;
+    margin-top: 5%;
+    font-weight: bold;
+    align-items: center;
+    
+}  */
+
+
+
+
+
+
+
+
+
+
+/*      FOOTER       */
+
+footer{
+    color: white;
+    height:50%;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(36, 35, 35);
+}
+/* ROW  */
+#foot{
+    margin-top: 50px;
+    color: white;
+    
+}
+
+/* FIRST COLOM */
+#fcolone{
+    margin-left: 70px;
+    text-align: start;
+    color: lightgray;
+    font-size: 25px;
+}
+#para{
+    font-size: 18px;
+}
+
+/*  SECOND COLOUM */
+#contact{
+    margin-left: 150px;
+    color: lightgray;
+    margin-top: 26px;
+}
+
+
+
+/*  THIRD COLOM  FOLOW US     */
+.soicon{
+    margin-top: 26px;
+}
+
+
+.iconss{
+    margin: 10px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 28px;
+}
+#insta:hover{
+    transition: 1s;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(orange, rgba(241, 50, 50, 0.979), rgb(224, 15, 144));
+}
+
+#face:hover{
+    color: rgb(6, 122, 189);
+    transition: 1s;
+}
+#twiter:hover{
+    color: lightskyblue;
+    transition: 1s;
+}
+#yt:hover{
+    color: rgb(221, 33, 33);
+    transition: 1s;
+}
